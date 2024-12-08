@@ -17,10 +17,17 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from task2.views import main_page, ClassTemplate, func_template
+from task3.views import platform, products, shopping_cart
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', main_page),
     path('class/', ClassTemplate.as_view()),
     path('func/', func_template),
+
+    path('platform/', platform),
+    path('games/', products),
+    path('cart/', shopping_cart),
 ]
+
+#urlpatterns += staticfiles_urlpatterns()

@@ -1,0 +1,29 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel = "stylesheet" type = "text/css" href = '{% static "style.css"%}'>
+</head>
+<body>
+        <header>
+            <h1><font color="#FFFAFA"> Главная страница </font></h1>
+            <img src = '{% static "img/UrbanStile3.png" %}' alt="logo">
+        </header>
+
+        <ul>
+            <li> <font size="6">
+                <a href="#">Главная</a>
+                                        </font></li>
+            <li> <font size="6">
+                <a href="/games">Магазин</a>
+                                        </font></li>
+            <li> <font size="6">
+                <a href="/cart">Корзина</a>
+                                        </font></li>
+        </ul>
+
+</body>
+</html>

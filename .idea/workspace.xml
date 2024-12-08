@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70ac6327-71b3-4b50-b666-4d51af903260" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/second_task/class_template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/second_task/func_template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/second_task/main_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="70ac6327-71b3-4b50-b666-4d51af903260" name="Changes" comment="на проверку">
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/static/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/third_task/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/third_task/games.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UrbanDjango/templates/third_task/platform.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/UrbanDjango/UrbanDjango/urls.py" afterDir="false" />
@@ -55,11 +55,18 @@
     "Python.manage.executor": "Run",
     "Python.views.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/user/PycharmProjects/Module_18_project_Django/UrbanDjango/templates/third_task",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\Module_18_project_Django\UrbanDjango\templates\third_task" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\PycharmProjects\Module_18_project_Django\UrbanDjango\static\img" />
+      <recent name="C:\Users\user\PycharmProjects\Module_18_project_Django\UrbanDjango\static" />
       <recent name="C:\Users\user\PycharmProjects\Module_18_project_Django\UrbanDjango\templates\second_task" />
       <recent name="C:\Users\user\PycharmProjects\Module_18_project_Django\UrbanDjango\templates" />
     </key>
@@ -80,6 +87,38 @@
       <option name="presentableId" value="Default" />
       <updated>1733648710728</updated>
     </task>
+    <task id="LOCAL-00001" summary="на проверку">
+      <option name="closed" value="true" />
+      <created>1733680974913</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733680974913</updated>
+    </task>
+    <task id="LOCAL-00002" summary="на проверку">
+      <option name="closed" value="true" />
+      <created>1733681220987</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733681220987</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="на проверку" />
+    <option name="LAST_COMMIT_MESSAGE" value="на проверку" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UrbanDjango/UrbanDjango/settings.py</url>
+          <line>111</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

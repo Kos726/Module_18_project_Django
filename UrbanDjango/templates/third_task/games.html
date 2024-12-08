@@ -1,0 +1,34 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <link rel = "stylesheet" type = "text/css" href = '{% static "style.css"%}'>
+</head>
+<body>
+        <header>
+            <h1><font color="#FFFAFA"> Игры </font></h1>
+        </header>
+
+        <main>
+            <ul>
+                {% for i in list_products  %}
+                    <li> <font size="5"> {{ i }} </font>
+                            <button><a href="#">Купить</a>
+                                            </button></li>
+                {% endfor %}
+            </ul>
+        </main>
+
+        <footer>
+            <button>
+                <a href="/platform">
+                    {{ button_back }}
+                </a>
+            </button>
+        </footer>
+
+</body>
+</html>
