@@ -17,7 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from task2.views import main_page, ClassTemplate, func_template
-from task3.views import platform, products, shopping_cart
+from task4.views import platform, products, shopping_cart
 
 urlpatterns = [
     path('admin/', admin.site.urls),
