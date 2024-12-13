@@ -16,17 +16,14 @@
 <ul>
     {% for i in games  %}
     <li> <font size="5"> {{ i }} </font>
-          <button>
-                    <a href="#">Купить</a>
-          </button>
+          <button type="button">Купить</button>
     </li>
     {% endfor %}
 </ul>
 
-<button>
-    <a href="/platform">
-                    {{ button_back }}
-    </a>
+
+<button onclick="document.location='/platform'">
+                {{ button_back }}
 </button>
 
 {% endblock %}

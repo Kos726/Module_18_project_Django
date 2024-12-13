@@ -17,6 +17,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from task2.views import main_page, ClassTemplate, func_template
+from task3.views import platform3, products3, shopping_cart3
 from task4.views import platform, products, shopping_cart
 from task5.views import sign_up_by_html, sign_up_by_django
 
@@ -25,6 +26,11 @@ urlpatterns = [
     # path('', main_page),
     path('class/', ClassTemplate.as_view()),
     path('func/', func_template),
+
+    path('platform3/', platform3),
+    path('games3/', products3),
+    path('cart3/', shopping_cart3),
+
 
     path('platform/', platform),
     path('games/', products),

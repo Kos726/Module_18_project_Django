@@ -3,21 +3,21 @@ from django.views.generic import TemplateView
 
 
 # Create your views here.
-def platform(request):
+def platform3(request):
     title = "Главная страница"
 
     context = {
         'title': title,
     }
 
-    return render(request, 'third_task/platform.html', context)
+    return render(request, 'third_task/platform3.html', context)
 
 
 class Shop(TemplateView):
     template_name = 'third_task/shop.html'
 
 
-def products(request):
+def products3(request):
     title = "Магазин"
     text_back = "Вернуться обратно"
 
@@ -34,10 +34,10 @@ def products(request):
         'len_list': len_list,
     }
 
-    return render(request, 'third_task/games.html', context)
+    return render(request, 'third_task/games3.html', context)
 
 
-def shopping_cart(request):
+def shopping_cart3(request):
     title = "Корзина"
     button_back = "Вернуться обратно"
 
@@ -54,4 +54,4 @@ def shopping_cart(request):
         'subject': subject,
     }
 
-    return render(request, 'third_task/cart.html', context)
+    return render(request, 'third_task/cart3.html', context)

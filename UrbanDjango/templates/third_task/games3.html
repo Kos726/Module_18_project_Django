@@ -16,17 +16,15 @@
             <ul>
                 {% for i in list_products  %}
                     <li> <font size="5"> {{ i }} </font>
-                            <button><a href="#">Купить</a>
+                            <button type="button">Купить
                                             </button></li>
                 {% endfor %}
             </ul>
         </main>
 
         <footer>
-            <button>
-                <a href="/platform">
-                    {{ button_back }}
-                </a>
+            <button onclick="document.location='/platform3'">
+                {{ button_back }}
             </button>
         </footer>
 

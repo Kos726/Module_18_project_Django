@@ -18,10 +18,8 @@
 
 <p>{{ subject }}</p>   <!-- Сообщение зависит от состояния корзины -->
 
-<button>
-    <a href="/platform">
-                    {{ button_back }}
-    </a>
+<button onclick="document.location='/platform'">
+                {{ button_back }}
 </button>
 
 {% endblock %}
